@@ -114,7 +114,7 @@ if __name__ == '__main__':
         data = filterResults(data, required_ports)
     # Total the port / state combinations.
     freq = sumStates(data)
-    # Format the dot delimited message with count and time for carbon.
+    # Form the dot delimited message with count and time for carbon.
     message = formMessage(freq)
 
     # Send the message to the carbon port.
