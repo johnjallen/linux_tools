@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import time
 import platform
 from socket import socket
